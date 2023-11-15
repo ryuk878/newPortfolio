@@ -1,0 +1,35 @@
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #cdedf6;
+  text-align: center;
+  opacity: 0;
+  
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  font-weight: bold;
+}
+.img {
+  inline-size: 90%;
+}
+img {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px 1px #ef7b45;
+}
+p { 
+  padding-bottom: 1.5%;
+}
+@media screen and (min-width: 768px) {
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img {
+    inline-size: 70%;
+  }
+}

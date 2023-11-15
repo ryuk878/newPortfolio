@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+body {
+  background: rgb(4, 42, 43);
+}
+.content-wrapper {
+  block-size: 100vh;
+  background-color: #cdedf6;
+}
+
+.background-drop {
+  background: rgb(4, 42, 43);
+  inline-size: 100%;
+  block-size: 100%;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Text {
+  color: #cdedf6;
+  position: absolute;
+  font-size: 4em;
+  opacity: 0;
+  text-decoration: none;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #cdedf6, 0 0 20px #cdedf6, 0 0 40px #ef7b45,
+      0 0 60px #ef7b45;
+  }
+}
