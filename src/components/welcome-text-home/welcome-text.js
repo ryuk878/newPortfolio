@@ -10,7 +10,7 @@ const words = [
   " Justin.",
   " A Developer.",
   " A Photographer.",
-  " A Trainee.Monk.",
+  " A FrontEnd.Monk.",
 ];
 // proberen if statements te verminderen in timeline. //
 // betere naming voor temp timeline//
