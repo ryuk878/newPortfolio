@@ -7,6 +7,13 @@ const ProjectData = [
     alt: "A screenshot of a carousel created with the muban 2 framework",
   },
   {
+    name: "To do App",
+    title: "A to do app based on TS & Snowpack",
+    img: "./Images/ToDo.png",
+    href: "https://rainbow-cranachan-1c5c42.netlify.app/",
+    alt: "A Screenshot of a ToDo app based on TS"
+  },
+  {
     name: "batman OREO ",
     title: "A project i worked on for MediaMonks",
     img: "./Images/batman.jpg",

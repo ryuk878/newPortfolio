@@ -18,7 +18,7 @@ export default function AboutHome() {
   return (
     <>
       <section ref={aboutHome} className="about-wrapper">
-        <p>I am 35 years old, based in the Netherlands.</p>
+        <p>I am 36 years old, based in the Netherlands.</p>
         <p>I love webdevelopment, photography, gaming and gadgets.</p>
       </section>
     </>
